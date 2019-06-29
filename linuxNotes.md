@@ -17,6 +17,7 @@ sudo reflector --verbose --latest 5 --sort rate --save /etc/pacman.d/mirrorlist
 
 ```
 ffmpeg -f x11grab -s 1366x768 -i :0.0 foryoubro.mkv
+ffmpeg -f x11grab -f pulse -i default -s 1366x768 -i :0.0 foryoubro.mkv 
 ```
 
 ## Extract mp3 from video
@@ -27,9 +28,26 @@ ffmpeg -i video.mkv name.mp3
 
 ## Mount NTFS
 
+yay -S ntfs-3g
+
 ```
 sudo ntfsfix /dev/sda5
 sudo mkdir /media
 sudo mount /dev/sda5 /media
 sudo umount /media
+```
+
+## Mount Android
+
+yay -S simple-mtpfs
+
+
+- mounting
+```
+simple-mtpfs -l <!-- to check device list -->
+simple-mtpfs --device [number] [mountpoint]
+```
+- umounting
+```
+fusermount -u [mountpoint]
 ```
