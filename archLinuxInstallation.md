@@ -23,7 +23,7 @@ my config
 
 you can download my dotfiles from my github account
 
-[alfianguide dotfiles](http://github.com/alfianguide/alfianguide-dotfiles)
+[alfianguide dotfiles](http://github.com/alfianguide/dotFiles)
 
 ## Guide
 
@@ -465,10 +465,10 @@ and copy all of it to $HOME
 cd /etc/fonts/conf.d
 ```
 
-and set 45-latin.conf to Monaco by adding 
+and set 45-latin.conf to Code New Roman by adding 
 
 <alias>
-	<family>Monaco</family>
+	<family>Code New Roman</family>
 	<default><family>serif</family></default>
 </alias>
 
@@ -476,7 +476,7 @@ to first line of serif, sans-serif, monospace
 
 and then edit the 60-latin.conf by adding
 
-<family>Monaco</family>
+<family>Code New Roman</family>
 
 to first line of prefer in serif, sans-serif, monospace
 

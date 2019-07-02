@@ -17,7 +17,7 @@ sudo reflector --verbose --latest 5 --sort rate --save /etc/pacman.d/mirrorlist
 
 ```
 ffmpeg -f x11grab -s 1366x768 -i :0.0 foryoubro.mkv
-ffmpeg -f x11grab -f pulse -i default -s 1366x768 -i :0.0 foryoubro.mkv 
+ffmpeg -f x11grab -s 1366x768 -i :0.0 foryoubro.mkv -f pulse -i default -y
 ```
 
 ## Extract mp3 from video
