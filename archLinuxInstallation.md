@@ -348,11 +348,12 @@ systemctl enable connman
 
 ## Install Fonts
 
-monaco 
+Code New Roman
 
 ```
-yay -S ttf-monaco
+yay -S otf-code-new-roman
 ```
+
 Siji
 
 ```
@@ -459,7 +460,7 @@ git clone http://github.com/alfianguide/alfianguide-dotfiles.git
 
 and copy all of it to $HOME
 
-## All Monaco
+## All Font Same
 
 ```
 cd /etc/fonts/conf.d
