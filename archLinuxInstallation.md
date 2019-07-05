@@ -354,12 +354,6 @@ Code New Roman
 yay -S otf-code-new-roman
 ```
 
-Siji
-
-```
-yay -S siji-git
-```
-
 FontAwesome
 
 ```
@@ -518,3 +512,16 @@ umount -R /mnt
 reboot
 ```
 
+
+### Notes
+
+The main point on arch linux installation is
+- it's base installed on drive and automount by fstab
+- root password set
+- connection driver and tools like connman or networkmanager, but i prefer connman with connman-gtk as gui
+- xorg and minimal wm, like bspwm or i3
+- bootloader, to get away the disk installation
+
+the important things is FAST INTERNET CONNECTION!
+
+any additional things like multimedia, fonts, tools can be installed later after the system is boot fine with very minimalist system and without disk installation boot of course.

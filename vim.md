@@ -107,12 +107,8 @@ Plugin 'tomtom/tcomment_vim'
 Plugin 'nathanaelkane/vim-indent-guides'
 " Plugin 'wakatime/vim-wakatime'
 
-<!-- " Writing -->
-Plugin 'reedes/vim-pencil'
-
 <!-- " wrapper -->
 Plugin 'tpope/vim-fugitive'
-Plugin 'fatih/vim-go'
 Plugin 'iamcco/markdown-preview.nvim'
 
 <!-- " Programming Language -->

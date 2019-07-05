@@ -25,3 +25,12 @@ touch fileName
 ```
 ls
 ```
+- add text into file
+```
+touch hello.txt
+echo "Hello World" >> hello.txt
+```
+- extract file text
+```
+cat fileName
+```
