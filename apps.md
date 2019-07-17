@@ -3,6 +3,10 @@
 - [st Terminal](https://st.suckless.org/)
 
 ### File Manager
+- [nnn](https://github.com/jarun/nnn)
+```
+yay -S nnn
+```
 - [Ranger](https://github.com/ranger/ranger)
 ```
 yay -S ranger

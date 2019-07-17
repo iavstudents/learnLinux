@@ -32,5 +32,14 @@ echo "Hello World" >> hello.txt
 ```
 - extract file text
 ```
-cat fileName
+cat fileName <!-- print file content into console -->
 ```
+- compiling apps
+Compiling apps usually has it's installation instruction on it's README.md or INSTALL.md of project directory.
+But, some of it are using GNU/Make or usually typed as below
+```
+./configure <!-- if there's config -->
+make <!-- compiling apps -->
+sudo make install <!-- installing apps -->
+```
+
