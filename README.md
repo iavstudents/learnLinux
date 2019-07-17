@@ -11,6 +11,9 @@ Contains notes of things.
 Contains of using vim as daily war craft weapon.
 
 ## How to Use?
+```
+git clone https://github.com/alfianguide/learnLinux/
+```
 Just open each file to read what contains of it.
 
 ## etc
