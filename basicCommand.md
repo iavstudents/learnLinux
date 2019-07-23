@@ -92,3 +92,16 @@ set zathura as default pdf viewer
 ```
 xdg-mime default org.pwmt.zathura.desktop application/pdf
 ```
+## Set Keyboard Layout
+US
+```
+setxkbmap -layout us
+```
+Arabic
+```
+setxkbmap -layout ara 
+```
+Etc
+```
+setxkbmap -layout etc 
+```

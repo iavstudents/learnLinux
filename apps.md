@@ -7,14 +7,6 @@
 ```
 yay -S nnn
 ```
-- [Ranger](https://github.com/ranger/ranger)
-```
-yay -S ranger
-```
-- [Vifm](https://github.com/vifm/vifm)
-```
-yay -S vifm
-```
 ### Office
 - libreoffice
 ```
