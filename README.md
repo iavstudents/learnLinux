@@ -21,3 +21,5 @@ Added soon.
 
 ## attention
 If you find this helpful, consider helping me with thing that you can do, please, support me, or if you are linux enthusiast, make pull reqs things that you want to share with others.
+
+# PRs Are Welcome!
